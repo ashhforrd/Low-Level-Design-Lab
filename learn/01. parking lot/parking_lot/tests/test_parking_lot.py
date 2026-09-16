@@ -6,7 +6,7 @@ from parking_lot.floor import ParkingFloor
 from parking_lot.lot import ParkingLot
 from parking_lot.pricing import HourlyPricingStrategy
 from parking_lot.spot import ParkingSpot
-from parking_lot.vehicle import Car
+from parking_lot.vehicle import BoxTruck, Car
 
 
 class ParkingLotTest(unittest.TestCase):
